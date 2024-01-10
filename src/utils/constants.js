@@ -1,0 +1,1 @@
+export const BACKEND_URL = 'https://be-widya-store.rprayatman.my.id/api';

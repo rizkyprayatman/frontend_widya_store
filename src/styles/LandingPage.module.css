@@ -1,0 +1,56 @@
+.wFour {
+    width: 25%;
+}
+
+.bgPurple {
+    background: #3252DF;
+}
+
+.btnPurple {
+    background: #3252DF
+}
+
+.btnPurple:hover {
+    background: black;
+    color: white;
+}
+
+.bgGrey {
+    background: #E6EDF0;
+}
+
+.bgGrey:hover {
+    background: black;
+    color: white
+}
+
+.bgPurpleLight {
+    background: #3252DF;
+    color: white
+}
+
+.bgPurpleLight:hover {
+    background: black;
+    color: white;
+}
+
+.footerBs {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.text {
+    /* font-family: 'Roboto', sans-serif; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #576B81;
+}
+
+@media only screen and (max-width: 768px) {
+    .wFour {
+        width: 90%;
+    }
+}

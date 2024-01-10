@@ -1,0 +1,113 @@
+.stripActive {
+    background: #3252DF;
+    border-radius: 100px 100px 0px 0px;
+    width: 80px;
+    margin-bottom: -2px;
+}
+
+.bgPurpleCard {
+    background: #3252DF;
+}
+
+.bgPurple {
+    background: #3252DF;
+}
+
+.bgPurple:hover {
+    background: black;
+    color: white;
+}
+
+.bgPurpleDisabled {
+    background: #3252DF;
+    opacity: 80%;
+}
+
+.bgGrey {
+    background: #E6EDF0;
+    color: black;
+}
+
+.bgGrey:hover {
+    background: black;
+    color: white
+}
+
+.formControl {}
+
+.formControl:focus {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.formControlEye {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.formControlEye:hover {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
+
+.imageProfile {
+    opacity: 1;
+}
+
+.imageProfile:hover {
+    opacity: 0.5;
+    background: url("https://images.unsplash.com/photo-1670272499232-d6c55af87386?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* .formControlEye:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+} */
