@@ -41,7 +41,7 @@ export default function Produk() {
   const handleAddProduct = async () => {
     try {
       const response = await fetch(
-        `${BACKEND_URL}/product/store`,
+        `${BACKEND_URL}/product/add`,
         {
           method: "POST",
           body: JSON.stringify(selectedProduct),
